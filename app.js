@@ -12,9 +12,13 @@ GAME FUNCTION:
 // Set the variables
 let min = 1,
     max = 10,
-    winningNum = 5,
+    winningNum = findRandom(min, max),
     guessesLeft = 3;
 
+// Calculate random number
+function findRandom(min, max){
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
 // Create UI variables    
 const guess = document.querySelector(".game"),
