@@ -7,3 +7,5 @@ If no more attempts left - the user is lost and is being offered to play again, 
 ![image info](./images/Capture.PNG)
 
 The game is written using pure vanilla **JavaScript** and **Bootstrap** classes for display.
+
+Deployed: [Number Guessing Game App](https://olga1598.github.io/Number-guessing-game/ "Number Guessing Game") 
